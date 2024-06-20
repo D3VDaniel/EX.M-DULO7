@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/cyan-wave.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: navy;
+    font-size: 30px;
+    padding: 3%;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    border-color: inherit;
+    text-align: center;
+}
+
+input:focus, button:focus{
+    border-color: navy;
+    color: navy;
+    font-size: 16px;
+    
+}
+
+form button {
+    background-color: white;
+    border-color: none;
+    height: 40px;
+    width: 300px;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+form button:hover {
+    font-weight: bold;
+    background-color: aqua;
+    color: black;
+}
+
+
+.success-message {
+    margin-top: 80px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    border-bottom-color: black; 
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    top: 95%;
+    background-image: linear-gradient(180deg, white, rgb(133, 221, 221) 150%, white);
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+footer .bottom p a {
+    text-decoration: none;
+    color:navy;
+}
